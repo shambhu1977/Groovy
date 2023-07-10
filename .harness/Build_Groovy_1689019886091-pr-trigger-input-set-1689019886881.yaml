@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Groovy_1689019886091-pr-trigger-input-set
+  identifier: Build_Groovy_1689019886091prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Groovy_1689019886091
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
